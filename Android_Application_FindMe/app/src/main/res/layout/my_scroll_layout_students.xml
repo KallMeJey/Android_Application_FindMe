@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorClear"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorRoom"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/object_losted_in" />
+
+        <TextView
+            android:id="@+id/Room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorRoom"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/room" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Hour"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textAlignment="center"
+                android:textColor="@color/colorHour"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/hour" />
+
+            <TextView
+                android:id="@+id/Date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:textAlignment="center"
+                android:textColor="@color/colorDate"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/date" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorItem"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/item_Name" />
+
+    </LinearLayout>
+</LinearLayout>
